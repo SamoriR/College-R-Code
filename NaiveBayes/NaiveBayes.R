@@ -1,6 +1,6 @@
 # Import Bayes.csv from class webpage
-Bayes <- read.csv("/Users/hiimsmorez/Documents/R Workspace/bayes.csv")
-iris <- read.csv("/Users/hiimsmorez/Documents/R Workspace/iris.csv", header=TRUE)
+Bayes <- read.csv("../bayes.csv")
+iris <- read.csv("../iris.csv", header=TRUE)
 # Select training data
 traindata <- Bayes[1:14,]
 
